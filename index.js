@@ -116,10 +116,10 @@ Baby.prototype.play = function(){return `Playing with ${this.favoriteToy}`};
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window binding is when the this keywoard is bound to the entire window or global scope.
+  2. Implicit binding is when this is refered in an object and this is bound to that object
+  3. New binding is when the this is used in a constructer to create a new object.
+  4. Explicit binding is when you declare what the this keyword is supposed to refer to.
 */
 
 
